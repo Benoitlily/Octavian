@@ -5450,6 +5450,11 @@ a {
 .u-form .u-form-group.u-form-agree label.u-label {
   margin-left: 5px;
 }
+.u-form .u-form-group.u-form-checkbox label.u-label a,
+.u-form .u-form-group.u-form-agree label.u-label a {
+  margin-top: 0;
+  margin-bottom: 0;
+}
 .u-form .u-form-horizontal .u-form-group.u-form-checkbox,
 .u-form .u-form-horizontal .u-form-group.u-form-agree {
   align-items: center;
@@ -5507,6 +5512,7 @@ a {
   }
   .u-form-horizontal .u-form-group {
     border: 0.5rem solid transparent !important;
+    margin-right: 0 !important;
   }
   .u-form-horizontal label {
     display: none;
@@ -8390,40 +8396,6 @@ section.u-image,
 .u-image-circle.u-image {
   border-radius: 50% !important;
 }
-.u-image-circle.u-expanded-width {
-  padding-bottom: 100%;
-  height: auto !important;
-}
-@media (min-width: 1200px) {
-  .u-image-circle.u-expanded-width-xl {
-    padding-bottom: 100%;
-    height: auto !important;
-  }
-}
-@media (min-width: 992px) and (max-width: 1199px) {
-  .u-image-circle.u-expanded-width-lg {
-    padding-bottom: 100%;
-    height: auto !important;
-  }
-}
-@media (min-width: 768px) and (max-width: 991px) {
-  .u-image-circle.u-expanded-width-md {
-    padding-bottom: 100%;
-    height: auto !important;
-  }
-}
-@media (min-width: 576px) and (max-width: 767px) {
-  .u-image-circle.u-expanded-width-sm {
-    padding-bottom: 100%;
-    height: auto !important;
-  }
-}
-@media (max-width: 575px) {
-  .u-image-circle.u-expanded-width-xs {
-    padding-bottom: 100%;
-    height: auto !important;
-  }
-}
 .u-image-round {
   border-radius: 10px;
 }
@@ -8522,6 +8494,42 @@ section.u-image,
     margin-left: 0 !important;
     margin-right: 0 !important;
   }
+}
+.u-preserve-proportions.u-expanded-width > * {
+  position: absolute !important;
+}
+.u-preserve-proportions.u-expanded-width-xl > * {
+  position: absolute !important;
+}
+.u-preserve-proportions.u-expanded-width-lg > * {
+  position: absolute !important;
+}
+.u-preserve-proportions.u-expanded-width-md > * {
+  position: absolute !important;
+}
+.u-preserve-proportions.u-expanded-width-sm > * {
+  position: absolute !important;
+}
+.u-preserve-proportions.u-expanded-width-xs > * {
+  position: absolute !important;
+}
+.u-preserve-proportions.u-expanded-width > .u-preserve-proportions-child {
+  position: relative !important;
+}
+.u-preserve-proportions.u-expanded-width-xl > .u-preserve-proportions-child {
+  position: relative !important;
+}
+.u-preserve-proportions.u-expanded-width-lg > .u-preserve-proportions-child {
+  position: relative !important;
+}
+.u-preserve-proportions.u-expanded-width-md > .u-preserve-proportions-child {
+  position: relative !important;
+}
+.u-preserve-proportions.u-expanded-width-sm > .u-preserve-proportions-child {
+  position: relative !important;
+}
+.u-preserve-proportions.u-expanded-width-xs > .u-preserve-proportions-child {
+  position: relative !important;
 }
 .u-expanded-height {
   position: absolute !important;
@@ -16806,6 +16814,9 @@ p {
 .u-container-style:not([class*="u-align-"]) {
   text-align: left;
 }
+.u-nav:not([class*="u-align-"]) .u-nav {
+  text-align: left;
+}
 .u-text {
   word-wrap: break-word;
   position: relative;
@@ -18330,7 +18341,7 @@ a.pswp__share--download:hover {
 .u-layout-carousel .u-carousel-item .u-back-slide {
   position: relative;
 }
-.u-layout-carousel .u-over-slide {
+.u-layout-carousel:not(.u-gallery-slider) .u-over-slide {
   position: relative;
   height: auto;
 }
@@ -34402,13 +34413,12 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-footer .u-list-1 {
-  width: 581px;
+  width: 702px;
   margin: 30px auto 0 0;
 }
 
 .u-footer .u-repeater-1 {
   min-height: 265px;
-  grid-auto-columns: calc(50% - 5px);
   grid-template-columns: calc(50% - 5px) calc(50% - 5px);
   grid-gap: 10px 10px;
 }
@@ -34567,10 +34577,6 @@ a.u-link.u-text-hover-grey-90:hover {
   margin: -35px auto 34px 1089px;
 }
 @media (max-width: 1199px) {
-  .u-footer .u-repeater-1 {
-    grid-template-columns: repeat(2, calc(50% - 5px));
-  }
-
   .u-footer .u-icon-11 {
     margin-left: 801px;
   }
@@ -34593,7 +34599,6 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 
   .u-footer .u-repeater-1 {
-    grid-auto-columns: calc(100% - 0px);
     grid-template-columns: 100%;
     min-height: 470px;
   }
@@ -34615,10 +34620,6 @@ a.u-link.u-text-hover-grey-90:hover {
 @media (max-width: 767px) {
   .u-footer .u-list-1 {
     width: 255px;
-  }
-
-  .u-footer .u-repeater-1 {
-    grid-auto-columns: 100%;
   }
 
   .u-footer .u-container-layout-1 {
