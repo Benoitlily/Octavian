@@ -1,11 +1,12 @@
 .u-section-1 .u-sheet-1 {
-  min-height: 835px;
+  min-height: 1460px;
 }
 
 .u-section-1 .u-post-details-1 {
-  min-height: 731px;
+  min-height: 1280px;
   margin-top: 60px;
-  margin-bottom: -10px;
+  margin-bottom: 60px;
+  height: auto;
 }
 
 .u-section-1 .u-container-layout-1 {
@@ -28,7 +29,7 @@
 }
 
 .u-section-1 .u-text-2 {
-  margin: 22px 15px 0;
+  margin: 22px 45px 0;
 }
 
 @media (max-width: 1199px) {
@@ -46,10 +47,6 @@
 @media (max-width: 991px) {
   .u-section-1 .u-sheet-1 {
     min-height: 782px;
-  }
-
-  .u-section-1 .u-post-details-1 {
-    margin-bottom: 60px;
   }
 
   .u-section-1 .u-image-1 {
