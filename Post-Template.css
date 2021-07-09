@@ -9,45 +9,37 @@
 }
 
 .u-section-1 .u-container-layout-1 {
-  padding: 30px 0;
-}
-
-.u-section-1 .u-image-1 {
-  width: 540px;
-  height: 486px;
-  margin: 0 570px 0 30px;
-}
-
-.u-section-1 .u-text-1 {
-  margin: -449px 79px 0 586px;
+  padding: 0;
 }
 
 .u-section-1 .u-metadata-1 {
-  margin: 11px auto 0 586px;
+  margin: 22px auto 0;
+}
+
+.u-section-1 .u-text-1 {
+  width: 475px;
+  margin: 0 auto;
+}
+
+.u-section-1 .u-image-1 {
+  width: 1050px;
+  height: 486px;
+  margin: 11px auto 0;
 }
 
 .u-section-1 .u-text-2 {
-  margin: 0 95px 0 586px;
+  margin: 22px 15px 0;
 }
 
 @media (max-width: 1199px) {
   .u-section-1 .u-image-1 {
-    margin-right: 400px;
-    margin-left: 0;
-  }
-
-  .u-section-1 .u-text-1 {
-    margin-right: 0;
-    margin-left: 465px;
-  }
-
-  .u-section-1 .u-metadata-1 {
-    margin-left: 465px;
+    width: 940px;
+    height: 435px;
   }
 
   .u-section-1 .u-text-2 {
-    margin-right: 16px;
-    margin-left: 465px;
+    margin-right: 0;
+    margin-left: 0;
   }
 }
 
@@ -61,19 +53,8 @@
   }
 
   .u-section-1 .u-image-1 {
-    margin-right: 180px;
-  }
-
-  .u-section-1 .u-text-1 {
-    margin-left: 245px;
-  }
-
-  .u-section-1 .u-metadata-1 {
-    margin-left: 245px;
-  }
-
-  .u-section-1 .u-text-2 {
-    margin-left: 245px;
+    width: 720px;
+    height: 333px;
   }
 }
 
@@ -83,19 +64,8 @@
   }
 
   .u-section-1 .u-image-1 {
-    margin-right: 0;
-  }
-
-  .u-section-1 .u-text-1 {
-    margin-left: 65px;
-  }
-
-  .u-section-1 .u-metadata-1 {
-    margin-left: 65px;
-  }
-
-  .u-section-1 .u-text-2 {
-    margin-left: 65px;
+    width: 540px;
+    height: 250px;
   }
 }
 
@@ -104,22 +74,21 @@
     min-height: 656px;
   }
 
-  .u-section-1 .u-image-1 {
-    width: 340px;
-    height: 306px;
+  .u-section-1 .u-metadata-1 {
+    margin-top: -225px;
   }
 
   .u-section-1 .u-text-1 {
-    margin-top: -269px;
-    margin-left: 0;
+    margin-top: 240px;
+    width: 340px;
   }
 
-  .u-section-1 .u-metadata-1 {
-    margin-left: 0;
+  .u-section-1 .u-image-1 {
+    width: 340px;
+    height: 157px;
   }
 
   .u-section-1 .u-text-2 {
-    margin-right: 0;
-    margin-left: 0;
+    margin-top: 124px;
   }
 }
