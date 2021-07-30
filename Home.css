@@ -634,7 +634,7 @@
 .u-section-3 .u-image-1 {
   min-height: 621px;
   background-image: url("images/13.jpg");
-  background-position: 83.74% 50%;
+  background-position: 50% 50%;
   animation-duration: 1000ms;
 }
 
@@ -706,10 +706,6 @@
     margin-top: -314px;
     margin-right: calc(((100% - 940px) / 2));
     margin-left: calc(((100% - 940px) / 2));
-  }
-
-  .u-section-3 .u-image-1 {
-    background-position: 50% 50%;
   }
 
   .u-section-3 .u-container-layout-1 {
@@ -1035,7 +1031,7 @@
 .u-section-5 .u-image-1 {
   min-height: 706px;
   background-image: url("images/242.jpg");
-  background-position: 13.29% 50%;
+  background-position: 50% 50%;
 }
 
 .u-section-5 .u-container-layout-1 {
