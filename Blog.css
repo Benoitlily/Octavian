@@ -31,6 +31,7 @@
 
 .u-section-1 .u-image-1 {
   height: 222px;
+  animation-duration: 1000ms;
   margin: 0 auto 0 0;
 }
 
@@ -60,6 +61,7 @@
 
 .u-section-1 .u-image-2 {
   height: 222px;
+  animation-duration: 1000ms;
   margin: 0 auto 0 0;
 }
 
@@ -89,6 +91,7 @@
 
 .u-section-1 .u-image-3 {
   height: 222px;
+  animation-duration: 1000ms;
   margin: 0 auto 0 0;
 }
 

@@ -851,6 +851,7 @@
   background-image: url("images/12.jpg");
   background-position: 50% 50%;
   min-height: 744px;
+  animation-duration: 1000ms;
 }
 
 .u-section-4 .u-container-layout-1 {
@@ -1032,6 +1033,7 @@
   min-height: 706px;
   background-image: url("images/242.jpg");
   background-position: 50% 50%;
+  animation-duration: 1000ms;
 }
 
 .u-section-5 .u-container-layout-1 {
@@ -1041,6 +1043,7 @@
 .u-section-5 .u-group-1 {
   min-height: 317px;
   width: 479px;
+  animation-duration: 1000ms;
   margin: -676px auto 60px calc(((100% - 1140px) / 2) + 91px);
 }
 

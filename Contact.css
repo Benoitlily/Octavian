@@ -11,20 +11,16 @@
 
 .u-section-1 .u-image-1 {
   min-height: 445px;
-  background-image: url("images/11-min.jpg");
-  background-position: 50% 0%;
-}
-
-.u-section-1 .u-image-2 {
   background-image: url("images/121.jpg");
-  background-position: 50% 50%;
+  background-position: 50% 19.85%;
+  animation-duration: 1000ms;
 }
 
 .u-section-1 .u-container-layout-1 {
   padding: 86px 30px 30px;
 }
 
-.u-section-1 .u-image-3 {
+.u-section-1 .u-image-2 {
   min-height: 445px;
   background-image: url("images/22-min.jpg");
   background-position: 50% 50%;
@@ -59,7 +55,7 @@
     background-position: 50% 50%;
   }
 
-  .u-section-1 .u-image-3 {
+  .u-section-1 .u-image-2 {
     min-height: 367px;
   }
 
@@ -89,7 +85,7 @@
     padding-top: 30px;
   }
 
-  .u-section-1 .u-image-3 {
+  .u-section-1 .u-image-2 {
     min-height: 430px;
   }
 
@@ -118,7 +114,7 @@
     padding-right: 10px;
   }
 
-  .u-section-1 .u-image-3 {
+  .u-section-1 .u-image-2 {
     order: 0;
     min-height: 624px;
   }
@@ -141,7 +137,7 @@
     min-height: 502px;
   }
 
-  .u-section-1 .u-image-3 {
+  .u-section-1 .u-image-2 {
     min-height: 393px;
   }
 
@@ -174,6 +170,7 @@
 
 .u-section-2 .u-text-1 {
   font-size: 3.75rem;
+  animation-duration: 1000ms;
   margin: 0;
 }
 
@@ -195,6 +192,7 @@
 
 .u-section-2 .u-layout-cell-2 {
   min-height: 596px;
+  animation-duration: 1000ms;
 }
 
 .u-section-2 .u-container-layout-2 {
@@ -203,6 +201,7 @@
 
 .u-section-2 .u-text-2 {
   text-transform: uppercase;
+  animation-duration: 1000ms;
   margin: 0 2px;
 }
 
@@ -247,6 +246,10 @@
 
 .u-section-2 .u-container-layout-3 {
   padding: 30px;
+}
+
+.u-section-2 .u-map-1 {
+  animation-duration: 1000ms;
 }
 
 @media (max-width: 1199px) {
@@ -360,8 +363,6 @@
 
   .u-section-2 .u-layout-wrap-1 {
     width: 540px;
-    margin-top: -694px;
-    margin-bottom: 30px;
   }
 
   .u-section-2 .u-layout-cell-1 {
@@ -403,8 +404,6 @@
 
   .u-section-2 .u-layout-wrap-1 {
     width: 340px;
-    margin-top: -503px;
-    margin-bottom: 40px;
   }
 
   .u-section-2 .u-layout-cell-1 {

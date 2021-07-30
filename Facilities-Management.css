@@ -1,6 +1,5 @@
 .u-section-1 {
   background-image: url("images/pexels-tima-miroshnichenko-6197122small.jpg");
-  background-position: 50% 50%;
 }
 
 .u-section-1 .u-sheet-1 {
@@ -15,6 +14,7 @@
 .u-section-1 .u-layout-cell-1 {
   min-height: 240px;
   background-image: none;
+  animation-duration: 1000ms;
 }
 
 .u-section-1 .u-container-layout-1 {
@@ -93,12 +93,15 @@
 }
 
 @media (max-width: 575px) {
+  .u-section-1 {
+    background-position: 50% 50%;
+  }
+
   .u-section-1 .u-sheet-1 {
     min-height: 813px;
   }
 }.u-section-2 {
   background-image: linear-gradient(0deg, rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url("images/MotivationalQuoteNotificationReminderInstagramPost3.jpg");
-  background-position: 50% 50%;
 }
 
 .u-section-2 .u-sheet-1 {
@@ -132,6 +135,7 @@
   min-height: 151px;
   background-image: none;
   width: 655px;
+  animation-duration: 1000ms;
   margin: 54px 0 0 -140px;
 }
 
@@ -159,6 +163,10 @@
 }
 
 @media (max-width: 1199px) {
+  .u-section-2 {
+    background-position: 50% 50%;
+  }
+
   .u-section-2 .u-sheet-1 {
     min-height: 526px;
   }
@@ -315,7 +323,6 @@
   }
 }.u-section-3 {
   background-image: linear-gradient(0deg, rgba(0,0,0,0.15), rgba(0,0,0,0.15)), url("images/261.jpg");
-  background-position: 50% 50%;
 }
 
 .u-section-3 .u-sheet-1 {
@@ -329,6 +336,7 @@
 
 .u-section-3 .u-layout-cell-1 {
   min-height: 481px;
+  animation-duration: 1000ms;
 }
 
 .u-section-3 .u-container-layout-1 {
@@ -359,6 +367,10 @@
 }
 
 @media (max-width: 1199px) {
+  .u-section-3 {
+    background-position: 50% 50%;
+  }
+
   .u-section-3 .u-sheet-1 {
     min-height: 1020px;
   }
@@ -488,6 +500,10 @@
 }
 
 @media (max-width: 575px) {
+  .u-section-3 {
+    background-position: 50% 50%;
+  }
+
   .u-section-3 .u-sheet-1 {
     min-height: 1284px;
   }
@@ -516,7 +532,6 @@
   }
 }.u-section-4 {
   background-image: linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("images/DSC_0717.jpg");
-  background-position: 50% 50%;
 }
 
 .u-section-4 .u-sheet-1 {
@@ -539,6 +554,7 @@
 .u-section-4 .u-text-1 {
   font-size: 2.25rem;
   font-style: normal;
+  animation-duration: 1000ms;
   margin: 59px 0 0;
 }
 
@@ -562,6 +578,10 @@
 }
 
 @media (max-width: 1199px) {
+  .u-section-4 {
+    background-position: 50% 50%;
+  }
+
   .u-section-4 .u-sheet-1 {
     min-height: 569px;
   }
