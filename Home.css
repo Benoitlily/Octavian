@@ -32,7 +32,7 @@
   min-height: 212px;
   animation-duration: 1000ms;
   height: auto;
-  margin: 176px 0 0 auto;
+  margin: 176px 105px 0 auto;
 }
 
 .u-section-1 .u-container-layout-2 {
@@ -49,7 +49,7 @@
 
 .u-section-1 .u-image-2 {
   background-image: linear-gradient(0deg, rgba(22,30,77,0.75), rgba(22,30,77,0.75)), url("images/IMG_26601.jpg");
-  background-position: 50% 50%;
+  background-position: 50% 28.37%;
 }
 
 .u-section-1 .u-container-layout-3 {
@@ -61,7 +61,7 @@
   min-height: 144px;
   animation-duration: 1000ms;
   height: auto;
-  margin: 0 9px 0 auto;
+  margin: 0 105px 0 auto;
 }
 
 .u-section-1 .u-container-layout-4 {
@@ -91,7 +91,7 @@
   min-height: 224px;
   animation-duration: 1000ms;
   height: auto;
-  margin: 0 0 0 auto;
+  margin: 0 105px 0 auto;
 }
 
 .u-section-1 .u-container-layout-6 {
@@ -117,10 +117,10 @@
 
 .u-section-1 .u-group-4 {
   width: 528px;
-  min-height: 224px;
+  min-height: 282px;
   animation-duration: 1000ms;
   height: auto;
-  margin: 0 0 0 auto;
+  margin: 0 105px 0 auto;
 }
 
 .u-section-1 .u-container-layout-8 {
@@ -137,8 +137,7 @@
 
 .u-section-1 .u-image-5 {
   background-image: linear-gradient(0deg, rgba(22,30,77,0.75), rgba(22,30,77,0.75)), url("images/Untitleddesign1.jpg");
-  background-position: 50% 29.13%;
-  margin-bottom: 791px;
+  background-position: 50% 50%;
 }
 
 .u-section-1 .u-container-layout-9 {
@@ -147,10 +146,10 @@
 
 .u-section-1 .u-group-5 {
   width: 528px;
-  min-height: 224px;
+  min-height: 282px;
   animation-duration: 1000ms;
   height: auto;
-  margin: 0 0 0 auto;
+  margin: 0 105px 0 auto;
 }
 
 .u-section-1 .u-container-layout-10 {
@@ -287,6 +286,10 @@
     padding-right: 10px;
   }
 
+  .u-section-1 .u-group-1 {
+    margin-right: 100px;
+  }
+
   .u-section-1 .u-container-layout-2 {
     padding-left: 10px;
     padding-right: 10px;
@@ -299,6 +302,7 @@
 
   .u-section-1 .u-group-2 {
     width: 540px;
+    margin-right: 10px;
   }
 
   .u-section-1 .u-container-layout-4 {
@@ -313,6 +317,7 @@
 
   .u-section-1 .u-group-3 {
     width: 540px;
+    margin-right: 0;
   }
 
   .u-section-1 .u-container-layout-6 {
@@ -327,6 +332,7 @@
 
   .u-section-1 .u-group-4 {
     width: 540px;
+    margin-right: 0;
   }
 
   .u-section-1 .u-container-layout-8 {
@@ -341,6 +347,7 @@
 
   .u-section-1 .u-group-5 {
     width: 540px;
+    margin-right: 0;
   }
 
   .u-section-1 .u-container-layout-10 {
@@ -401,10 +408,6 @@
   .u-section-1 .u-text-4 {
     font-size: 1.5rem;
     margin-top: 32px;
-  }
-
-  .u-section-1 .u-image-5 {
-    background-position: 50% 50%;
   }
 
   .u-section-1 .u-group-5 {
